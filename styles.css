@@ -7,7 +7,12 @@ body {
 .header, 
 .topbody {
     background-color: #F8EDE3;
-    padding: 5px 200px;
+}
+
+.header, 
+.topbody,
+.midbody {
+    padding: 5px 250px;
 }
 
 .header {
@@ -28,7 +33,9 @@ body {
 
 a, 
 .title,
-.textinblue {
+.textinblue,
+.textinmid,
+h1 {
     color: #85586F;
 }
 
@@ -59,12 +66,17 @@ a {
     width: 500px;
 }
 
-.topbodyimg {
+.imgtopbody {
     width: 420px;
     border: 4px solid #85586F;
     border-radius: 15px;
 }
 
+.imginmid {
+    width: 230px;
+    border: 4px solid #85586F;
+    border-radius: 15px;
+}
 
 .seemore {
     width: 130px;
@@ -80,4 +92,18 @@ a {
 .vl {
     border: 2px solid #85586F;
     height: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.midbody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textinmid {
+    text-align: center;
+    font-size: 22px;
 }
