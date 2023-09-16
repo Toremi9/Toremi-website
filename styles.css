@@ -12,7 +12,9 @@ body {
 .header, 
 .topbody,
 .midbody,
-.testimonial {
+.testimonial,
+.bottombody,
+.footer {
     padding: 5px 250px;
 }
 
@@ -127,22 +129,47 @@ h1 {
     font-size: 22px;
     margin-top: 5px;
     margin-bottom: 40px;
+    font-weight: bold;
 
 }
 
 .testimonial {
     background-color: #F8EDE3;
-    padding: 150px 250px;
+    padding: 130px 330px;
 }
 
 .quote {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 200;
 }
 
 .author {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 26px;
     text-align: right;
     margin-top: 18px;
+}
+
+.content {
+    display: flex;
+    padding: 50px 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D0B8A8;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.textinbot {
+    margin: 5px 0;
+    color: #6e495c;
+}
+
+.footer {
+    background-color: #DFD3C3;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 25px;
+    color: #85586F;
 }
