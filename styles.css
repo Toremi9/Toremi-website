@@ -6,12 +6,13 @@ body {
 
 .header, 
 .topbody {
-    background-color: #F8EDE3;
+    background-color: #DFD3C3;
 }
 
 .header, 
 .topbody,
-.midbody {
+.midbody,
+.testimonial {
     padding: 5px 250px;
 }
 
@@ -20,7 +21,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
+
+#border  {
+    border-bottom: 2px solid #D0B8A8;
+    position: absolute;
+    left: 250px;
+    right: 250px;
+    bottom: 0px;
+  }
 
 .logo {
     width: 85px;
@@ -35,7 +45,9 @@ a,
 .title,
 .textinblue,
 .textinmid,
-h1 {
+h1,
+.testimonial,
+.quote {
     color: #85586F;
 }
 
@@ -48,7 +60,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 350px;
+    padding: 50px 250px;
+    padding-bottom: 80px;
 }
 
 .title {
@@ -96,14 +109,40 @@ a {
 
 h1 {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .midbody {
+    padding: 60px 250px;
+}
+
+.midflex {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .textinmid {
     text-align: center;
     font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+
+}
+
+.testimonial {
+    background-color: #F8EDE3;
+    padding: 150px 250px;
+}
+
+.quote {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: right;
+    margin-top: 18px;
 }
